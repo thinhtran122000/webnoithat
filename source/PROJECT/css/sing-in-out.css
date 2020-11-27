@@ -1,0 +1,113 @@
+.body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif ;
+    color: #333;
+    box-sizing: border-box;
+  }
+.form-signin {
+  width: 400px;
+}
+.form-signin h2 {
+  margin: 100px 0 30px 10px;
+  padding: 15px 0 !important;
+  /* background: #28d; */
+  font-size: 1.4em;
+  text-align: center;
+  color: inherit;
+  width: 330px !important;
+}
+.form-signin input {
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  border-width: 1px;
+  border-style: solid;
+  padding: 12px 16px;
+  outline: 0;
+  font-family: inherit;
+  font-size: 0.95em;
+}
+.form-signin input[type="text"],
+.form-signin input[type="password"] {
+  background: #fff;
+  border-color: #bbb;
+  color: #555;
+}
+.form-signin input[type="text"]:focus,
+.form-signin input[type="password"]:focus {
+  border-color: #888;
+}
+.form-signin input[type="submit"] {
+  background: #28d;
+  border-color: transparent;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 7px;
+}
+
+.form-signin input[type="submit"]:hover {
+  background: #17c;
+}
+
+/* Buttons' focus effect */
+.form-signininput[type="submit"]:focus {
+  border-color: #05a;
+}
+.form-signout{
+    width: 400px;
+   margin-bottom: 100px;
+}
+.form-signout h2 {
+    margin: 60px 0 30px 10px;
+    padding: 15px 0 !important;
+    /* background: #28d; */
+    font-size: 1.4em;
+    text-align: center;
+    color: inherit;
+    width: 330px !important;
+}
+.form-signout input {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    border-width: 1px;
+    border-style: solid;
+    padding: 4px 16px;
+    outline: 0;
+    font-family: inherit;
+    font-size: 0.95em;
+  }
+  .form-signout input[type="submit"] {
+    background: #28d;
+    border-color: transparent;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+.form-signout input[type="submit"]:hover {
+    background: #17c;
+  }
+.info-user{
+    width: 500px;
+    height:600px;
+}
+.info-user td{
+    font-size: 18px;
+    padding: 15px;
+}
+.info-user h4{
+    padding: 20px 0;
+    margin: 0 0 0 30px;
+}
+.info-user table{
+    margin:30px 0 0 60px;
+}
+.info-user .btn{
+    margin: 70px 0 0 60px;
+}   
+.img-user{
+    margin:20px 0 0 220px;
+}
+.img-user .changepass{
+    margin-left:90px;
+}
